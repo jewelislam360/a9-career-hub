@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "Software Engineer",
+    "company": "Acme Inc.",
+    "location": "San Francisco",
+    "remote": true,
+    "full_time": true,
+    "job_responsibilities": ["Design and develop software applications", "Write clean, scalable code", "Test and debug code"],
+    "educational_requirements": "Bachelor's degree in Computer Science or related field",
+    "experiences": "2+ years of experience in software development",
+    "salary": 100000,
+    "description": "We are seeking a talented software engineer to join our team...",
+    "date_posted": "2023-04-05",
+    "contact": {
+      "phone": "555-1234",
+      "email": "jobs@acmeinc.com"
+    }
+  },
+  {
+    "id": 2,
+    "title": "Marketing Manager",
+    "company": "XYZ Corporation",
+    "location": "New York City",
+    "remote": false,
+    "full_time": true,
+    "job_responsibilities": ["Develop and execute marketing strategies", "Analyze market trends and data", "Manage marketing budget"],
+    "educational_requirements": "Bachelor's degree in Marketing, Business, or related field",
+    "experiences": "5+ years of experience in marketing management",
+    "salary": 85000,
+    "description": "We are seeking an experienced marketing manager to lead our team...",
+    "date_posted": "2023-04-04",
+    "contact": {
+      "phone": "555-5678",
+      "email": "jobs@xyzcorp.com"
+    }
+  },
+  {
+    "id": 3,
+    "title": "Sales Representative",
+    "company": "Global Sales Inc.",
+    "location": "Chicago",
+    "remote": false,
+    "full_time": true,
+    "job_responsibilities": ["Identify and pursue sales leads", "Negotiate sales contracts", "Provide excellent customer service"],
+    "educational_requirements": "High school diploma or equivalent",
+    "experiences": "2+ years of experience in sales",
+    "salary": 60000,
+    "description": "We are looking for a motivated sales representative to join our team...",
+    "date_posted": "2023-04-03",
+    "contact": {
+      "phone": "555-9012",
+      "email": "jobs@globalsalesinc.com"
+    }
+  },
+  {
+    "id": 4,
+    "title": "Human Resources Manager",
+    "company": "ABC Corporation",
+    "location": "Miami",
+    "remote": false,
+    "full_time": true,
+    "job_responsibilities": ["Develop and implement HR policies and procedures", "Recruit and hire new employees", "Administer employee benefits"],
+    "educational_requirements": "Bachelor's degree in Human Resources or related field",
+    "experiences": "5+ years of experience in HR management",
+    "salary": 90000,
+    "description": "We are seeking an experienced human resources manager to oversee our team...",
+    "date_posted": "2023-04-02",
+    "contact": {
+      "phone": "555-3456",
+      "email": "jobs@abccorp.com"
+    }
+  }
+]
