@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Software Engineer",
-    "company": "Acme Inc.",
+    "company": "Google",
     "location": "San Francisco",
     "remote": true,
     "full_time": true,
@@ -14,9 +14,11 @@
     "date_posted": "2023-04-05",
     "contact": {
       "phone": "555-1234",
-      "email": "jobs@acmeinc.com"
-    }
+      "email": "jobs@google.com"
+    },
+    "logo":"https://imgdb.net/storage/uploads/17c461a7db34f7e40b375efd58243d5d23385b68aa40f8fd9207841e2eeb5a05.png"
   },
+  
   {
     "id": 2,
     "title": "Marketing Manager",
@@ -32,9 +34,11 @@
     "date_posted": "2023-04-04",
     "contact": {
       "phone": "555-5678",
-      "email": "jobs@xyzcorp.com"
-    }
+      "email": "jobs@telsha.com"
+    },
+    "logo":"https://imgdb.net/storage/uploads/7cb5bfc05ab8f3c6e8670a3486aef38646e582dd0a10755dedc2a402176c13c4.png"
   },
+
   {
     "id": 3,
     "title": "Sales Representative",
@@ -51,12 +55,14 @@
     "contact": {
       "phone": "555-9012",
       "email": "jobs@globalsalesinc.com"
-    }
+    },
+    "logo":"https://imgdb.net/storage/uploads/7cb5bfc05ab8f3c6e8670a3486aef38646e582dd0a10755dedc2a402176c13c4.png"
   },
+  
   {
     "id": 4,
     "title": "Human Resources Manager",
-    "company": "ABC Corporation",
+    "company": "NETFLIX",
     "location": "Miami",
     "remote": false,
     "full_time": true,
@@ -68,7 +74,8 @@
     "date_posted": "2023-04-02",
     "contact": {
       "phone": "555-3456",
-      "email": "jobs@abccorp.com"
-    }
+      "email": "jobs@netflix.com"
+    },
+    "logo":"https://imgdb.net/storage/uploads/7cb5bfc05ab8f3c6e8670a3486aef38646e582dd0a10755dedc2a402176c13c4.png"
   }
 ]
