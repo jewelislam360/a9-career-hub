@@ -54,8 +54,14 @@ const JobDetails = () => {
                 
                 
                 <p><strong>Address:</strong> {location}</p>
+
+
+                <div>
+                <button className='btn btn-accent w-full'>Apply Now</button>
+                </div>
                 
             </div>
+            
             
         </div>
         

@@ -6,7 +6,7 @@
     "location": "San Francisco",
     "remote": true,
     "full_time": true,
-    "job_responsibilities": ["Design and develop software applications", "Write clean, scalable code", "Test and debug code"],
+    "job_responsibilities": ["Design and develop software applications", "Write clean, scalable code", "Test and debug code, Design and develop software applications", "Write clean, scalable code", "Test and debug code"],
     "educational_requirements": "Bachelor's degree in Computer Science or related field",
     "experiences": "2+ years of experience in software development",
     "salary": 100000,
