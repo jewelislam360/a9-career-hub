@@ -12,10 +12,8 @@
     "salary": 100000,
     "description": "We are seeking a talented software engineer to join our team...",
     "date_posted": "2023-04-05",
-    "contact": {
       "phone": "555-1234",
-      "email": "jobs@google.com"
-    },
+      "email": "jobs@google.com",
     "logo":"https://imgdb.net/storage/uploads/17c461a7db34f7e40b375efd58243d5d23385b68aa40f8fd9207841e2eeb5a05.png"
   },
   
@@ -32,10 +30,9 @@
     "salary": 85000,
     "description": "We are seeking an experienced marketing manager to lead our team...",
     "date_posted": "2023-04-04",
-    "contact": {
-      "phone": "555-5678",
-      "email": "jobs@telsha.com"
-    },
+
+    "phone": "555-5678",
+    "email": "jobs@telsha.com",
     "logo":"https://imgdb.net/storage/uploads/7cb5bfc05ab8f3c6e8670a3486aef38646e582dd0a10755dedc2a402176c13c4.png"
   },
 
@@ -52,13 +49,12 @@
     "salary": 60000,
     "description": "We are looking for a motivated sales representative to join our team...",
     "date_posted": "2023-04-03",
-    "contact": {
       "phone": "555-9012",
-      "email": "jobs@globalsalesinc.com"
-    },
-    "logo":"https://imgdb.net/storage/uploads/7cb5bfc05ab8f3c6e8670a3486aef38646e582dd0a10755dedc2a402176c13c4.png"
-  },
+      "email": "jobs@globalsalesinc.com",
   
+    "logo":"https://imgdb.net/storage/uploads/9f4d4cec07317f0975c3008eca681318b2240be859065327f7ea39d29b1a3821.png"
+  },
+
   {
     "id": 4,
     "title": "Human Resources Manager",
@@ -72,10 +68,47 @@
     "salary": 90000,
     "description": "We are seeking an experienced human resources manager to oversee our team...",
     "date_posted": "2023-04-02",
-    "contact": {
       "phone": "555-3456",
-      "email": "jobs@netflix.com"
-    },
-    "logo":"https://imgdb.net/storage/uploads/7cb5bfc05ab8f3c6e8670a3486aef38646e582dd0a10755dedc2a402176c13c4.png"
+      "email": "jobs@netflix.com",
+    
+    "logo":"https://imgdb.net/storage/uploads/95131353af4e9cafba62febd563a1594ab588061fb4721fc5354292c64088eab.png"
+  },
+  {
+    "id": 5,
+    "title": "Human Resources Manager",
+    "company": "NETFLIX",
+    "location": "Miami",
+    "remote": false,
+    "full_time": true,
+    "job_responsibilities": ["Develop and implement HR policies and procedures", "Recruit and hire new employees", "Administer employee benefits"],
+    "educational_requirements": "Bachelor's degree in Human Resources or related field",
+    "experiences": "5+ years of experience in HR management",
+    "salary": 90000,
+    "description": "We are seeking an experienced human resources manager to oversee our team...",
+    "date_posted": "2023-04-02",
+    
+      "phone": "555-3456",
+      "email": "jobs@netflix.com",
+    
+    "logo":"https://imgdb.net/storage/uploads/95131353af4e9cafba62febd563a1594ab588061fb4721fc5354292c64088eab.png"
+  },
+  {
+    "id": 6,
+    "title": "Human Resources Manager",
+    "company": "NETFLIX",
+    "location": "Miami",
+    "remote": false,
+    "full_time": true,
+    "job_responsibilities": ["Develop and implement HR policies and procedures", "Recruit and hire new employees", "Administer employee benefits"],
+    "educational_requirements": "Bachelor's degree in Human Resources or related field",
+    "experiences": "5+ years of experience in HR management",
+    "salary": 90000,
+    "description": "We are seeking an experienced human resources manager to oversee our team...",
+    "date_posted": "2023-04-02",
+    
+      "phone": "555-3456",
+      "email": "jobs@netflix.com",
+   
+    "logo":"https://imgdb.net/storage/uploads/e6f038bc17ce3f3ca898778d7a1792076ab6a15582753f647839feae4fc1170f.png"
   }
 ]
