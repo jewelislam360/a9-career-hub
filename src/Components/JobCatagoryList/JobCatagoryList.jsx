@@ -7,7 +7,7 @@ const JobCatagoryList = () => {
             <p className='text-base text-center mb-7'>Explore thousands of job opportunities with all the information you need. Its your future</p>
             <div className='grid md:grid-cols-4 gap-5	'>
                 <div className=' bg-slate-300 p-10 rounded-lg'>
-                    <img src="/public/images/Icons/accounts 1.png" alt="" />
+                    <img src="/public/images/Icons/Frame-1.png" alt="" />
                     <h1 className='text-xl'>Accounts & Finance</h1>
                     <p className='text-base'>300 Jobs Available</p>
                 </div>
