@@ -38,11 +38,11 @@ const JobDetails = () => {
                 <h1 className='font-bold'>Job Details</h1>
                 <hr className="h-[2px] bg-slate-300"></hr>
                 <div className='flex gap-1 items-center'>
-                    <div><img src="/public/images/Icons/Frame.png" alt="" /></div>
+                    <div><img src="/images/Icons/Frame.png" alt="" /></div>
                     <div><p><strong>Salary: $</strong> {salary}</p></div>
                 </div>
                 <div className='flex gap-1 items-center'>
-                    <div><img src="/public/images/Icons/Frame-1.png" alt="" /></div>
+                    <div><img src="/images/Icons/Frame-1.png" alt="" /></div>
                     <div><p><strong>Job Title:</strong> {title}</p></div>
                 </div>
                
@@ -50,15 +50,15 @@ const JobDetails = () => {
                 <h1 className='font-bold'>Contact Information</h1>
                 <hr className="h-[2px] bg-slate-300"></hr>
                 <div className='flex gap-1 items-center'>
-                    <div><img src="/public/images/Icons/Frame-2.png" alt="" /></div>
+                    <div><img src="/images/Icons/Frame-2.png" alt="" /></div>
                     <div><p><strong>Phone:</strong> {phone}</p></div>
                 </div>
                 <div className='flex gap-1 items-center'>
-                    <div><img src="/public/images/Icons/Frame-3.png" alt="" /></div>
+                    <div><img src="/images/Icons/Frame-3.png" alt="" /></div>
                     <div><p><strong>Email:</strong> {email}</p></div>
                 </div>
                 <div className='flex gap-1 items-center'>
-                    <div><img src="/public/images/Icons/Frame-4.png" alt="" /></div>
+                    <div><img src="/images/Icons/Frame-4.png" alt="" /></div>
                     <div><p><strong>Address:</strong> {location}</p></div>
                 </div>
                 

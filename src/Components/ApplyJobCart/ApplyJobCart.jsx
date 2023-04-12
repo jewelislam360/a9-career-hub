@@ -18,7 +18,7 @@ const ApplyJobCart = ({ data }) => {
                 <div className='border rounded p-1  bg-sky-300'>{full_time}</div>
             </div>
                     <div className='flex mb-2'>
-                        <div><img src="/public/images/Icons/Location Icon.png" alt="" /></div>
+                        <div><img src="/images/Icons/Location Icon.png" alt="" /></div>
                         <div>{location}</div>
                         <div className='ml-12'> Salary: ${salary}</div>
                     </div>
