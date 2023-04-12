@@ -1,5 +1,7 @@
 import React from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
+import AppliedJobs from '../AppliedJobs/AppliedJobs';
+import { addToDb } from '../../utils/fackDb';
 
 const JobDetails = () => {
     const data = useLoaderData();
@@ -9,7 +11,15 @@ const JobDetails = () => {
          jobs = data.find(job=> job.id == Id )
       
     }
+
     const {id, title, company, location, remote,full_time, job_responsibilities, educational_requirements,experiences, salary, description, date_posted, phone, email} = jobs;
+
+   const exmple =(id)=>{
+    addToDb(id)
+   }
+    
+    
+   
    
     return (
 
@@ -26,7 +36,7 @@ const JobDetails = () => {
             </div>
             <div className=' bg-violet-100 p-5 flex flex-col gap-3 basis-1/4'>
                 <h1 className='font-bold'>Job Details</h1>
-                <hr class="h-[2px] bg-slate-300"></hr>
+                <hr className="h-[2px] bg-slate-300"></hr>
                 <div className='flex gap-1 items-center'>
                     <div><img src="/public/images/Icons/Frame.png" alt="" /></div>
                     <div><p><strong>Salary: $</strong> {salary}</p></div>
@@ -38,7 +48,7 @@ const JobDetails = () => {
                
                 
                 <h1 className='font-bold'>Contact Information</h1>
-                <hr class="h-[2px] bg-slate-300"></hr>
+                <hr className="h-[2px] bg-slate-300"></hr>
                 <div className='flex gap-1 items-center'>
                     <div><img src="/public/images/Icons/Frame-2.png" alt="" /></div>
                     <div><p><strong>Phone:</strong> {phone}</p></div>
@@ -57,7 +67,7 @@ const JobDetails = () => {
 
 
                 <div>
-                <button className='btn btn-accent w-full'>Apply Now</button>
+                <button onClick={()=>exmple(id)}  className='btn btn-accent w-full'>Apply Now</button>
                 </div>
                 
             </div>
