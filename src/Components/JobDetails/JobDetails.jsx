@@ -62,8 +62,6 @@ const JobDetails = () => {
                     <div><p><strong>Address:</strong> {location}</p></div>
                 </div>
                 
-                
-                <p><strong>Address:</strong> {location}</p>
 
 
                 <div>
