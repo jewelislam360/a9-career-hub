@@ -10,7 +10,7 @@ const Benner = () => {
                 <button className='btn btn-accent'>Star Applying</button>
             </div>
             <div>
-                 <img src="/public/images/All-Images/P3OLGJ11.png" alt="" />
+                 <img src="/images/All-Images/P3OLGJ11.png" alt="" />
                 
                  </div>
 
