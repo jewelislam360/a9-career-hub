@@ -19,7 +19,7 @@ const Home = () => {
                 <p>Explore thousands of job opportunities with all the information you need. Its your future</p>
                 </div>
                
-            <div className='job-container grid grid-cols-2 gap-8'>
+            <div className='job-container grid md:grid-cols-2 gap-8'>
             {
                 jobs.map(job=><AllJobs
                 key={job.id} 

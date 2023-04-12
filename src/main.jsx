@@ -11,13 +11,15 @@ import Home from './Components/Home/Home';
 import Statistics from './Components/Statistics/Statistics';
 import AppliedJobs from './Components/AppliedJobs/AppliedJobs';
 import Blog from './Components/Blog/Blog';
-import ErrorPage from './error-page';
+
 import AllJobs from './Components/AllJobs/AllJobs';
 import JobDetails from './Components/JobDetails/JobDetails';
+import ErrorPage from './Components/ErrorPage/ErrorPage';
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Main></Main>,
+    errorElement:<ErrorPage></ErrorPage>,
     children:[
       {
         path:"/",
@@ -44,13 +46,8 @@ const router = createBrowserRouter([
       
       
     ]
-  },
-  // {
-    
-  //     path:"*",
-  //     errorElement: <ErrorPage></ErrorPage>
-    
-  // }
+  }
+  
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
